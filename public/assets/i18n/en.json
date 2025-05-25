@@ -1,0 +1,20 @@
+{
+  "navigation": {
+    "all_pages": "All Pages",
+    "report": "Report",
+    "project": "Project",
+    "setting": "Setting"
+  },
+  "header": {
+    "dashboard": "Dashboard",
+    "welcome": "Welcome,",
+    "logout": "Logout"
+  },
+  "reports":{
+    "report_list": "Report List"
+  },
+  "projects":{
+    "total_projects": "Total Projects",
+    "details": "Details"
+  }
+}

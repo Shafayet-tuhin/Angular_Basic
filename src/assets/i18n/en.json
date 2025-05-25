@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "report": "Report",
+    "project": "Project",
+    "setting": "Setting"
+  },
+  "header": {
+    "dashboard": "Dashboard",
+    "welcome": "Welcome,",
+    "logout": "Logout"
+  }
+}

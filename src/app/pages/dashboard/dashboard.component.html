@@ -1,0 +1,60 @@
+<div class="flex h-screen">
+  <aside class="w-64 bg-gray-800 text-white flex flex-col p-4">
+    <h2 class="text-xl font-bold mb-6">{{ 'navigation.all_pages' | translate }}</h2>
+    <nav class="flex flex-col gap-4">
+      <a
+        routerLink="reports"
+        routerLinkActive="linkActice"
+        class="linkStyle"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        {{ 'navigation.report' | translate }}
+      </a>
+      <a
+        routerLink="projects"
+        routerLinkActive="linkActice"
+        class="linkStyle"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        {{ 'navigation.project' | translate }}
+      </a>
+      <a *ngIf="isAdmin"
+        routerLink="settings"
+        routerLinkActive="linkActice"
+        class="linkStyle"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
+        {{ 'navigation.setting' | translate }}
+      </a>
+    </nav>
+  </aside>
+
+  <div class="flex-1 flex flex-col">
+    <!-- Topbar -->
+    <header class="bg-white shadow p-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <h1 class="text-2xl font-semibold text-gray-800">{{ 'header.dashboard' | translate }}</h1>
+        <!-- Language toggle button -->
+        <button 
+          (click)="toggleLanguage()" 
+          class="ml-4 bg-blue-500 text-white px-3 py-1 rounded hover:bg-blue-600 text-sm"
+        >
+          {{ currentLang === 'en' ? 'বাংলা' : 'English' }}
+        </button>
+      </div>
+      <div>
+        <span class="text-gray-600 mr-4">{{ 'header.welcome' | translate }} {{user?.email}} </span>
+        <button
+          (click)="logOut()"
+          class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+        >
+          {{ 'header.logout' | translate }}
+        </button>
+      </div>
+    </header>
+
+    <main class="p-6 bg-gray-100 flex-1 overflow-auto">
+      <router-outlet></router-outlet>
+    </main>
+  </div>
+</div>

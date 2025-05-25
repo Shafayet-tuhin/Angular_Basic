@@ -1,0 +1,446 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "admin@gmail.com",
+            "password": "admin",
+            "role": "admin"
+        },
+        {
+            "id": 2,
+            "email": "user@gmail.com",
+            "password": "user",
+            "role": "user"
+        },
+        {
+            "id": 3,
+            "email": "manager@gmail.com",
+            "password": "manager",
+            "role": "manager"
+        }
+    ],
+    "posts": [
+    {
+        "id": 1,
+        "en": {
+            "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+            "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+            "category": "men's clothing",
+            "price": 109.95
+        },
+        "bn": {
+            "title": "ফজালরাভেন - ফোল্ডস্যাক নং ১ ব্যাকপ্যাক, ১৫ ইঞ্চি ল্যাপটপ উপযুক্ত",
+            "description": "আপনার দৈনন্দিন ব্যবহার এবং জঙ্গলে হাঁটার জন্য নিখুঁত ব্যাগ। আপনার ল্যাপটপ (১৫ ইঞ্চি পর্যন্ত) রাখুন প্যাডযুক্ত স্লিভে।",
+            "category": "পুরুষদের পোশাক",
+            "price": 13399.71
+        },
+        "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "en": {
+            "title": "Mens Casual Premium Slim Fit T-Shirts",
+            "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing...",
+            "category": "men's clothing",
+            "price": 22.3
+        },
+        "bn": {
+            "title": "পুরুষদের ক্যাজুয়াল প্রিমিয়াম স্লিম ফিট টি-শার্ট",
+            "description": "স্লিম ফিট স্টাইল, র্যাগলান লম্বা হাতা, থ্রি-বাটন হেনলি প্ল্যাকেট, হালকা ও নরম ফ্যাব্রিক যা পরার সময় আরামদায়ক এবং শ্বাসপ্রশ্বাসযোগ্য...",
+            "category": "পুরুষদের পোশাক",
+            "price": 2717.924
+        },
+        "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "en": {
+            "title": "Mens Cotton Jacket",
+            "description": "Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions...",
+            "category": "men's clothing",
+            "price": 55.99
+        },
+        "bn": {
+            "title": "পুরুষদের তুলার জ্যাকেট",
+            "description": "বসন্ত/শরত/শীতের জন্য উপযুক্ত বাইরের পোশাক, কাজ, হাইকিং, ক্যাম্পিং ইত্যাদির জন্য উপযুক্ত...",
+            "category": "পুরুষদের পোশাক",
+            "price": 6824.7812
+        },
+        "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "en": {
+            "title": "Mens Casual Slim Fit",
+            "description": "The color could be slightly different between on the screen and in practice...",
+            "category": "men's clothing",
+            "price": 15.99
+        },
+        "bn": {
+            "title": "পুরুষদের ক্যাজুয়াল স্লিম ফিট",
+            "description": "স্ক্রিনে এবং বাস্তবে রঙে কিছুটা পার্থক্য থাকতে পারে...",
+            "category": "পুরুষদের পোশাক",
+            "price": 1948.4612
+        },
+        "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "en": {
+            "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+            "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon...",
+            "category": "jewelery",
+            "price": 695
+        },
+        "bn": {
+            "title": "জন হার্ডি নারীদের লেজেন্ডস নাগা গোল্ড ও সিলভার ড্রাগন ব্রেসলেট",
+            "description": "আমাদের লেজেন্ডস কালেকশন থেকে, নাগা একটি পৌরাণিক জল ড্রাগনের দ্বারা অনুপ্রাণিত...",
+            "category": "গহনা",
+            "price": 84706
+        },
+        "image": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "en": {
+            "title": "Solid Gold Petite Micropave",
+            "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days...",
+            "category": "jewelery",
+            "price": 168
+        },
+        "bn": {
+            "title": "সলিড গোল্ড পেটাইট মাইক্রোপাভ",
+            "description": "সন্তুষ্টি নিশ্চিত। ৩০ দিনের মধ্যে যেকোনো অর্ডার ফেরত বা পরিবর্তন করুন...",
+            "category": "গহনা",
+            "price": 20475.84
+        },
+        "image": "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "en": {
+            "title": "White Gold Plated Princess",
+            "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her...",
+            "category": "jewelery",
+            "price": 9.99
+        },
+        "bn": {
+            "title": "হোয়াইট গোল্ড প্লেটেড প্রিন্সেস",
+            "description": "ক্লাসিক বিবাহ ও এনগেজমেন্টের জন্য তৈরি ডায়মন্ড রিং, উপহার হিসেবে উপযুক্ত...",
+            "category": "গহনা",
+            "price": 1217.5812
+        },
+        "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "en": {
+            "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+            "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings...",
+            "category": "jewelery",
+            "price": 10.99
+        },
+        "bn": {
+            "title": "পিয়ারসড আউল রোজ গোল্ড প্লেটেড স্টেইনলেস স্টিল ডাবল",
+            "description": "রোজ গোল্ড প্লেটেড ডাবল ফ্লেয়ারড টানেল প্লাগ কানের দুল...",
+            "category": "গহনা",
+            "price": 1340.5612
+        },
+        "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    },
+    {
+        "id": 9,
+        "en": {
+            "title": "WD 2TB Elements Portable External Hard Drive - USB 3.0",
+            "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance...",
+            "category": "electronics",
+            "price": 64
+        },
+        "bn": {
+            "title": "WD ২টিবি এলিমেন্টস পোর্টেবল এক্সটার্নাল হার্ড ড্রাইভ - ইউএসবি ৩.০",
+            "description": "ইউএসবি ৩.০ এবং ২.০ সাপোর্ট সহ দ্রুত ডেটা স্থানান্তর, কম্পিউটারের পারফর্ম্যান্স উন্নত করে...",
+            "category": "ইলেকট্রনিক্স",
+            "price": 7800.32
+        },
+        "image": "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
+        "rating": {
+            "rate": 3.3,
+            "count": 203
+        }
+    },
+    {
+        "id": 10,
+        "en": {
+            "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+            "description": "Easy upgrade for faster boot up, shutdown, application load and response...",
+            "category": "electronics",
+            "price": 109
+        },
+        "bn": {
+            "title": "SanDisk SSD PLUS 1TB ইন্টারনাল SSD - SATA III 6 Gb/s",
+            "description": "দ্রুত বুট, বন্ধ, অ্যাপ লোড এবং রেসপন্সের জন্য সহজ আপগ্রেড...",
+            "category": "ইলেকট্রনিক্স",
+            "price": 13305.92
+        },
+        "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 470
+        }
+    }
+],
+    "dummyData": [
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "-37.3159",
+                    "long": "81.1496"
+                },
+                "city": "kilcoole",
+                "street": "new road",
+                "number": 7682,
+                "zipcode": "12926-3874"
+            },
+            "id": 1,
+            "email": "john@gmail.com",
+            "username": "johnd",
+            "password": "m38rmF$",
+            "name": {
+                "firstname": "john",
+                "lastname": "doe"
+            },
+            "phone": "1-570-236-7033",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "-37.3159",
+                    "long": "81.1496"
+                },
+                "city": "kilcoole",
+                "street": "Lovers Ln",
+                "number": 7267,
+                "zipcode": "12926-3874"
+            },
+            "id": 2,
+            "email": "morrison@gmail.com",
+            "username": "mor_2314",
+            "password": "83r5^_",
+            "name": {
+                "firstname": "david",
+                "lastname": "morrison"
+            },
+            "phone": "1-570-236-7033",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "40.3467",
+                    "long": "-30.1310"
+                },
+                "city": "Cullman",
+                "street": "Frances Ct",
+                "number": 86,
+                "zipcode": "29567-1452"
+            },
+            "id": 3,
+            "email": "kevin@gmail.com",
+            "username": "kevinryan",
+            "password": "kev02937@",
+            "name": {
+                "firstname": "kevin",
+                "lastname": "ryan"
+            },
+            "phone": "1-567-094-1345",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "50.3467",
+                    "long": "-20.1310"
+                },
+                "city": "San Antonio",
+                "street": "Hunters Creek Dr",
+                "number": 6454,
+                "zipcode": "98234-1734"
+            },
+            "id": 4,
+            "email": "don@gmail.com",
+            "username": "donero",
+            "password": "ewedon",
+            "name": {
+                "firstname": "don",
+                "lastname": "romer"
+            },
+            "phone": "1-765-789-6734",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "40.3467",
+                    "long": "-40.1310"
+                },
+                "city": "san Antonio",
+                "street": "adams St",
+                "number": 245,
+                "zipcode": "80796-1234"
+            },
+            "id": 5,
+            "email": "derek@gmail.com",
+            "username": "derek",
+            "password": "jklg*_56",
+            "name": {
+                "firstname": "derek",
+                "lastname": "powell"
+            },
+            "phone": "1-956-001-1945",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "20.1677",
+                    "long": "-10.6789"
+                },
+                "city": "el paso",
+                "street": "prospect st",
+                "number": 124,
+                "zipcode": "12346-0456"
+            },
+            "id": 6,
+            "email": "david_r@gmail.com",
+            "username": "david_r",
+            "password": "3478*#54",
+            "name": {
+                "firstname": "david",
+                "lastname": "russell"
+            },
+            "phone": "1-678-345-9856",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "10.3456",
+                    "long": "20.6419"
+                },
+                "city": "fresno",
+                "street": "saddle st",
+                "number": 1342,
+                "zipcode": "96378-0245"
+            },
+            "id": 7,
+            "email": "miriam@gmail.com",
+            "username": "snyder",
+            "password": "f238&@*$",
+            "name": {
+                "firstname": "miriam",
+                "lastname": "snyder"
+            },
+            "phone": "1-123-943-0563",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "50.3456",
+                    "long": "10.6419"
+                },
+                "city": "mesa",
+                "street": "vally view ln",
+                "number": 1342,
+                "zipcode": "96378-0245"
+            },
+            "id": 8,
+            "email": "william@gmail.com",
+            "username": "hopkins",
+            "password": "William56$hj",
+            "name": {
+                "firstname": "william",
+                "lastname": "hopkins"
+            },
+            "phone": "1-478-001-0890",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "40.12456",
+                    "long": "20.5419"
+                },
+                "city": "miami",
+                "street": "avondale ave",
+                "number": 345,
+                "zipcode": "96378-0245"
+            },
+            "id": 9,
+            "email": "kate@gmail.com",
+            "username": "kate_h",
+            "password": "kfejk@*_",
+            "name": {
+                "firstname": "kate",
+                "lastname": "hale"
+            },
+            "phone": "1-678-456-1934",
+            "__v": 0
+        },
+        {
+            "address": {
+                "geolocation": {
+                    "lat": "30.24788",
+                    "long": "-20.545419"
+                },
+                "city": "fort wayne",
+                "street": "oak lawn ave",
+                "number": 526,
+                "zipcode": "10256-4532"
+            },
+            "id": 10,
+            "email": "jimmie@gmail.com",
+            "username": "jimmie_k",
+            "password": "klein*#%*",
+            "name": {
+                "firstname": "jimmie",
+                "lastname": "klein"
+            },
+            "phone": "1-104-001-4567",
+            "__v": 0
+        }
+    ]
+}

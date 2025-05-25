@@ -1,0 +1,72 @@
+<div class="container mx-auto px-4 py-8">
+  <h1 class="text-3xl font-bold text-center mb-10 text-gray-800">
+    <!-- {{ "projects.total_projects" | translate }} -->
+     <t key="projects.total_projects"></t>
+  </h1>
+
+  <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+    <div
+      *ngFor="let product of projects"
+      class="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col"
+    >
+      <!-- Image with overlay -->
+      <div class="relative h-56 overflow-hidden group">
+        <img
+          [src]="product.image"
+          alt="Product image"
+          class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
+        />
+        <div
+          class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        ></div>
+      </div>
+
+      <!-- Content -->
+      <div class="p-5 flex flex-col flex-grow">
+        <!-- Title -->
+        <h2 class="text-xl font-bold text-gray-800 mb-2 line-clamp-1">
+          {{ product[currentLang]?.title }}
+        </h2>
+
+        <!-- Description -->
+        <p class="text-gray-600 mb-4 line-clamp-3 min-h-[4.5rem]">
+          {{ product[currentLang]?.description }}
+        </p>
+
+        <!-- Price and Category -->
+        <div class="flex justify-between items-center mb-4">
+          <span class="text-lg font-bold text-indigo-600"
+            >${{ product[currentLang].price }}</span
+          >
+          <span
+            class="bg-indigo-100 text-indigo-700 text-sm px-3 py-1 rounded-full"
+          >
+            {{ product[currentLang]?.category }}
+          </span>
+        </div>
+
+        <!-- Rating -->
+        <div class="flex items-center mb-4">
+          <span class="text-yellow-400 text-lg">★</span>
+          <span class="ml-2 text-sm text-gray-700">
+            {{ product.rating.rate }} ({{ product.rating.count }})
+          </span>
+        </div>
+
+        <!-- Admin Button -->
+        <div *ngIf="isAdmin" class="mt-auto">
+          <button
+            [routerLink]="['/dashboard/projects', product.id]"
+            [state]="product"
+            class="w-full mb-2 bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-blue-600 hover:to-cyan-500 text-white font-medium py-2 rounded-lg transition-colors duration-300"
+          >
+            {{ "projects.details" | translate }}
+          </button>
+          <!-- <div>
+              <button>+</button> 
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

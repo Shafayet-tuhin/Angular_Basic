@@ -1,0 +1,41 @@
+  <button (click)="goBack()"
+    class="mb-6 px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition"
+  >
+    🔙 Back
+  </button>
+
+<div *ngIf="projectData === null" class="text-center mt-10 text-gray-500">
+  Loading project details...
+</div>
+
+<div
+  *ngIf="projectData"
+  class="max-w-3xl mx-auto mt-10 p-6 bg-white shadow-lg rounded-xl"
+>
+  <img
+    [src]="projectData.image"
+    [alt]="projectData.title"
+    class="w-full h-64 object-contain mb-6"
+  />
+
+  <h2 class="text-2xl font-bold text-gray-800 mb-2">{{ projectData.title }}</h2>
+
+  <p class="text-gray-600 mb-4">
+    {{ projectData[currentLang].description }}
+  </p>
+
+  <p class="text-sm text-gray-500 mb-2">
+    🏷️ <strong>Category:</strong> {{ projectData[currentLang].category }}
+  </p>
+
+  <p class="text-lg text-green-600 font-semibold mb-4">
+    💲Price: {{ projectData[currentLang].price }}
+  </p>
+
+  <div class="flex items-center gap-2">
+    ⭐ <span class="font-medium">{{ projectData.rating?.rate }}</span> ({{
+      projectData.rating?.count
+    }}
+    reviews)
+  </div>
+</div>

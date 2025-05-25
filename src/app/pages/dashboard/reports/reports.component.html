@@ -1,0 +1,32 @@
+<h2 class="text-3xl font-bold mb-8 text-center text-gray-800">📋 {{'reports.report_list' | translate }}</h2>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  <div
+    *ngFor="let user of users"
+    class="bg-gradient-to-tr from-white to-gray-50 shadow-lg rounded-2xl p-6 hover:shadow-xl transition-shadow duration-300"
+  >
+    <div
+      [routerLink]="['/dashboard/reports', user.id]"
+      class="block cursor-pointer transform hover:scale-[0.97] transition-transform duration-200"
+    >
+      <h3 class="text-xl font-semibold mb-2 text-gray-900">
+        {{ user.name.firstname }} {{ user.name.lastname }}
+      </h3>
+
+      <div class="space-y-1 text-gray-700 text-sm">
+        <p class="flex items-center gap-2">
+          <span class="text-blue-500">📧</span>
+          {{ user.email }}
+        </p>
+        <p class="flex items-center gap-2">
+          <span class="text-green-500">📞</span>
+          {{ user.phone }}
+        </p>
+        <p class="flex items-center gap-2">
+          <span class="text-purple-500">🏙️</span>
+          {{ user.address.street }}, {{ user.address.city }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

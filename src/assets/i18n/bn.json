@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "report": "প্রতিবেদন",
+    "project": "প্রকল্প",
+    "setting": "সেটিংস"
+  },
+  "header": {
+    "dashboard": "ড্যাশবোর্ড",
+    "welcome": "স্বাগতম,",
+    "logout": "লগ আউট"
+  }
+}

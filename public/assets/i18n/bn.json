@@ -1,0 +1,20 @@
+{
+    "navigation": {
+        "all_pages": "সমস্ত পৃষ্ঠা",
+        "report": "প্রতিবেদন",
+        "project": "প্রকল্প",
+        "setting": "সেটিংস"
+    },
+    "header": {
+        "dashboard": "ড্যাশবোর্ড",
+        "welcome": "স্বাগতম,",
+        "logout": "লগ আউট"
+    },
+    "reports": {
+        "report_list": "প্রতিবেদন তালিকা"
+    },
+    "projects": {
+        "total_projects": "মোট প্রকল্প",
+        "details": "বিস্তারিত"
+    }
+}

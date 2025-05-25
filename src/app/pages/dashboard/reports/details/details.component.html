@@ -1,0 +1,33 @@
+<button
+  (click)="goBack()"
+  class="mb-6 px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-700 rounded-lg transition"
+>
+  🔙 Back
+</button>
+
+<div *ngIf="user" class="max-w-xl mx-auto bg-white shadow-md rounded-lg p-6">
+  <h2 class="text-2xl font-bold text-center mb-4">
+    {{ user.name.firstname  }} {{ user.name.lastname  }}
+  </h2>
+
+  <p class="text-gray-600 mb-2">
+    <strong>📧 Email:</strong> {{ user.email }}
+  </p>
+  <p class="text-gray-600 mb-2">
+    <strong>👤 Username:</strong> {{ user.username }}
+  </p>
+  <p class="text-gray-600 mb-2">
+    <strong>📞 Phone:</strong> {{ user.phone }}
+  </p>
+
+  <div class="mt-4">
+    <h3 class="text-lg font-semibold mb-2">📍 Address</h3>
+    <p class="text-gray-600">
+      {{ user.address.street }}, {{ user.address.city }}, {{ user.address.zipcode }}
+    </p>
+  </div>
+</div>
+
+<div *ngIf="!user" class="text-center text-gray-500 mt-10">
+  Loading user data...
+</div>

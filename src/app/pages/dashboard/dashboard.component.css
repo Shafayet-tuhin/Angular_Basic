@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.linkActice{
+    @apply bg-green-600;
+}
+
+.linkStyle{
+    @apply p-2 rounded;
+}
